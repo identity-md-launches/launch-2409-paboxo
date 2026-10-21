@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "PABOXO",
+    "name": "PABOXO",
+    "symbol": "PABOXO",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 5000,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0xadf5bb70a6bc38c29ef755ca5c6cbdb7dffca63e"
+  },
+  "notes": "PABOXO is a fixed-supply ERC-20. Its parameterless constructor mints all 1,000,000,000 tokens with 18 decimals to msg.sender once. There are no application contracts or initialization calls."
+}
